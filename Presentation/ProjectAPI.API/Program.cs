@@ -2,9 +2,7 @@ using ProjectAPI.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-builder.Services.AddPersistenceServices();
-
+builder.Services
 // Add services to the container.
 
 builder.Services.AddControllers();

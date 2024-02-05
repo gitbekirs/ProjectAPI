@@ -14,4 +14,8 @@
     <ProjectReference Include="..\..\Core\ProjectAPI.Application\ProjectAPI.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Concretes\" />
+  </ItemGroup>
+
 </Project>
