@@ -9,7 +9,7 @@ namespace ProjectApi.Domain.Entities
 {
     public class ArticleType:BaseEntityParametricTables
     {
-        public string ArticleTypeName { get; set; }
+        public string ArticleTypeName { get; set; } //public, private or restricted(only selected users)
         public ICollection<Article> Articles { get; set; }
     }
 }

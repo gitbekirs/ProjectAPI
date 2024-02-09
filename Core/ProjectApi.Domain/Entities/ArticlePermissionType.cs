@@ -7,11 +7,9 @@ using System.Threading.Tasks;
 
 namespace ProjectApi.Domain.Entities
 {
-    public class User:BaseEntityDynamicTables
+    public class ArticlePermissionType:BaseEntityParametricTables
     {
-        public string UserName { get; set; }
-        public string UserEmail { get; set; }
-        public ICollection<Article> Articles { get; set; }
+        public string ArticlePermissionTypeName { get; set; }//viewing,editing,expanding
         public ICollection<ArticleUserPermissions> ArticleUserPermissions { get; set; }
     }
 }
