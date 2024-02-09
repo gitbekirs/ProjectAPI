@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjectApi.Domain.Entities.Common
 {
-    public class BaseEntity
+    public class BaseEntityDynamicTables
     {
         public Guid Id { get; set; }
         public DateTime CreatedDate { get; set; }
