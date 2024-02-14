@@ -7,10 +7,9 @@ using System.Threading.Tasks;
 
 namespace ProjectApi.Domain.Entities
 {
-    public class Article:Content
+    public class ContentType:BaseEntityParametricTables
     {
-        public string Header { get; set; }
-        public string Spot { get; set; }
-        public string Body { get; set; }
+        public string ContentTypeName { get; set; }//makale,şiir,şarkı sözü,senaryo vs..
+        public ICollection<Content> Contents { get; set; }
     }
 }

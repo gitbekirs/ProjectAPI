@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace ProjectApi.Domain.Entities
 {
-    //sadece rArticle Type restricted olan article'lar için kayıt girilir.
-    public class ArticleUserPermissions:BaseEntityDynamicTables
+    //sadece content Type restricted olan content'lar için kayıt girilir.
+    public class ContentUserPermissions:BaseEntityDynamicTables
     {
         public User User { get; set; }
-        public Article Article { get; set; }
-        public ArticlePermissionType PermissionType { get; set; }
+        public Content Content { get; set; }
+        public ContentPermissionType PermissionType { get; set; }
         public DateTime? ValidityDate { get; set; }
     }
 }
