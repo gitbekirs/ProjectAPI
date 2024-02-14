@@ -12,7 +12,7 @@ namespace ProjectApi.Domain.Entities
     {
         public User User { get; set; }
         public Content Content { get; set; }
-        public ContentPermissionType PermissionType { get; set; }
+        public ContentPermissionType ContentPermissionType { get; set; }
         public DateTime? ValidityDate { get; set; }
     }
 }
